@@ -1,0 +1,40 @@
+mini-commerce/
+├── public/
+│   └── products.json         # 8+ dummy products
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx        # App shell (header/footer)
+│   │   ├── page.tsx          # Home/catalogue
+│   │   ├── product/
+│   │   │   └── [slug]/
+│   │   │       └── page.tsx  # Product detail
+│   │   ├── cart/
+│   │   │   └── page.tsx      # Cart page
+│   │   ├── checkout/
+│   │   │   └── page.tsx      # Checkout page
+│   │   └── success/
+│   │       └── page.tsx      # Thank you page
+│   ├── components/
+│   │   ├── ProductCard.tsx
+│   │   ├── ProductList.tsx
+│   │   ├── CartItem.tsx
+│   │   ├── CartSummary.tsx
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── Loader.tsx
+│   ├── store/
+│   │   └── cart.ts           # Zustand store
+│   ├── hooks/
+│   │   └── useProducts.ts    # React Query hook
+│   ├── types/
+│   │   └── product.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── utils/
+│       └── formatPrice.ts
+├── .eslintrc.js
+├── .prettierrc
+├── jest.config.js
+├── tsconfig.json
+├── README.md
+└── package.json

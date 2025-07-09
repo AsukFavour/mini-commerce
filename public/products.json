@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Classic White T-Shirt",
+    "slug": "classic-white-tshirt",
+    "image": "/images/classic-white-tshirt.jpg",
+    "price": 15.99,
+    "description": "A timeless white t-shirt made from 100% organic cotton. Comfortable and versatile."
+  },
+  {
+    "id": "2",
+    "name": "Blue Denim Jeans",
+    "slug": "blue-denim-jeans",
+    "image": "/images/blue-denim-jeans.jpg",
+    "price": 39.99,
+    "description": "Slim-fit blue denim jeans with a modern cut. Durable and stylish for everyday wear."
+  },
+  {
+    "id": "3",
+    "name": "Red Hoodie",
+    "slug": "red-hoodie",
+    "image": "/images/red-hoodie.jpg",
+    "price": 29.99,
+    "description": "Cozy red hoodie with a front pocket and adjustable drawstrings. Perfect for chilly days."
+  },
+  {
+    "id": "4",
+    "name": "Black Leather Jacket",
+    "slug": "black-leather-jacket",
+    "image": "/images/black-leather-jacket.jpg",
+    "price": 89.99,
+    "description": "Classic black leather jacket with zip closure. Adds edge to any outfit."
+  },
+  {
+    "id": "5",
+    "name": "Floral Summer Dress",
+    "slug": "floral-summer-dress",
+    "image": "/images/floral-summer-dress.jpg",
+    "price": 34.99,
+    "description": "Lightweight floral dress with a flattering fit. Ideal for warm weather."
+  },
+  {
+    "id": "6",
+    "name": "Grey Sweatpants",
+    "slug": "grey-sweatpants",
+    "image": "/images/grey-sweatpants.jpg",
+    "price": 22.99,
+    "description": "Soft grey sweatpants with elastic waistband. Great for lounging or workouts."
+  },
+  {
+    "id": "7",
+    "name": "Striped Polo Shirt",
+    "slug": "striped-polo-shirt",
+    "image": "/images/striped-polo-shirt.jpg",
+    "price": 19.99,
+    "description": "Casual striped polo shirt with a classic collar. Breathable and stylish."
+  },
+  {
+    "id": "8",
+    "name": "Navy Blue Blazer",
+    "slug": "navy-blue-blazer",
+    "image": "/images/navy-blue-blazer.jpg",
+    "price": 59.99,
+    "description": "Tailored navy blue blazer for formal or smart-casual occasions."
+  },
+  {
+    "id": "9",
+    "name": "Green Cargo Shorts",
+    "slug": "green-cargo-shorts",
+    "image": "/images/green-cargo-shorts.jpg",
+    "price": 24.99,
+    "description": "Comfortable green cargo shorts with multiple pockets. Perfect for summer adventures."
+  },
+  {
+    "id": "10",
+    "name": "Yellow Raincoat",
+    "slug": "yellow-raincoat",
+    "image": "/images/yellow-raincoat.jpg",
+    "price": 44.99,
+    "description": "Bright yellow raincoat with hood and waterproof material. Stay dry in style."
+  }
+]
