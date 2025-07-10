@@ -2,6 +2,7 @@ import Image from "next/image";
 
 export default function Jumbotron() {
   return (
+    
     <section className="relative bg-[#f7f6f7] min-h-[400px] md:min-h-[600px] flex items-center overflow-hidden rounded-b-3xl mb-10 px-0 pt-0">
       {/* Banner Text */}
       <div className="absolute left-0 top-0 w-full h-full flex flex-col justify-center pl-6 md:pl-20 z-10">
@@ -32,6 +33,9 @@ export default function Jumbotron() {
       </div>
       {/* Overlay for mobile readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#f7f6f7] via-[#f7f6f7]/80 to-transparent md:hidden"></div>
+     
     </section>
+
+     
   );
 }

@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -8,19 +9,15 @@ export const metadata = {
   description: "A tiny e-commerce shop built with Next.js, Zustand, and React Query",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-white min-h-screen flex flex-col">
         <Providers>
           <Header />
-          <main className="flex-1 w-full max-w-7xl mx-auto px-4 py-6">
-            {children}
-          </main>
+          
+              {children}
+            
           <Footer />
         </Providers>
       </body>

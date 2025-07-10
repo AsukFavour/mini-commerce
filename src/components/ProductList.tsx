@@ -9,10 +9,16 @@ export default function ProductList() {
   if (error) return <div>Failed to load products.</div>;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="catalogue">
+   <div>
+    <h2 className="text-2xl md:text-3xl font-extrabold mb-6">Our Products</h2>
+    <p className="text-gray-600 mb-8">
+      Explore our curated collection of fashion essentials. From classic tees to trendy jackets, we have something for everyone.
+    </p>
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="catalogue">
       {products?.map(product => (
         <ProductCard key={product.id} product={product} />
       ))}
     </div>
+ </div>
   );
 }

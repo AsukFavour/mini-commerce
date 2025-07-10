@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Classic White T-Shirt",
     "slug": "classic-white-tshirt",
-    "image": "/images/classic-white-tshirt.jpg",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80",
     "price": 15.99,
     "description": "A timeless white t-shirt made from 100% organic cotton. Comfortable and versatile."
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "name": "Red Hoodie",
     "slug": "red-hoodie",
-    "image": "/images/red-hoodie.jpg",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
     "price": 29.99,
     "description": "Cozy red hoodie with a front pocket and adjustable drawstrings. Perfect for chilly days."
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "name": "Black Leather Jacket",
     "slug": "black-leather-jacket",
-    "image": "/images/black-leather-jacket.jpg",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80",
     "price": 89.99,
     "description": "Classic black leather jacket with zip closure. Adds edge to any outfit."
   },

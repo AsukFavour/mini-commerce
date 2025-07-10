@@ -1,9 +1,13 @@
 "use client";
 import { useState } from "react";
 import { FiShoppingCart, FiSearch } from "react-icons/fi";
+import { useCart } from "../store/cart";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const [search, setSearch] = useState("");
+  const totalItems = useCart((state) => state.totalItems());
+  const router = useRouter();
 
   return (
     <header className="w-full bg-white shadow-sm">
@@ -41,12 +45,15 @@ export default function Header() {
             type="button"
             className="relative p-2 rounded-full hover:bg-gray-100 transition"
             aria-label="View cart"
+            onClick={() => router.push("/cart")}
           >
             <FiShoppingCart size={22} className="text-gray-700" />
-            {/* Example cart badge */}
-            <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full px-1.5 py-0.5">
-              0
-            </span>
+            {/* Cart badge */}
+            {totalItems > 0 && (
+              <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full px-1.5 py-0.5">
+                {totalItems}
+              </span>
+            )}
           </button>
         </div>
       </div>
