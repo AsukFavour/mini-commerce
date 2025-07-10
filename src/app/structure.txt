@@ -1,6 +1,7 @@
 mini-commerce/
 ├── public/
 │   └── products.json         # 8+ dummy products
+    |__/images
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx        # App shell (header/footer)

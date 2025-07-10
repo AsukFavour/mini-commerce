@@ -1,41 +1,41 @@
 [
   {
     "id": "1",
-    "name": "Classic White T-Shirt",
-    "slug": "classic-white-tshirt",
-    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80",
+    "name": "Black T-Shirt",
+    "slug": "classic-black-tshirt",
+    "image": "/images/black-tshirt.png",
     "price": 15.99,
-    "description": "A timeless white t-shirt made from 100% organic cotton. Comfortable and versatile."
+    "description": "A timeless black t-shirt made from 100% organic cotton. Comfortable and versatile."
   },
   {
     "id": "2",
     "name": "Blue Denim Jeans",
     "slug": "blue-denim-jeans",
-    "image": "/images/blue-denim-jeans.jpg",
+    "image": "/images/blue-jeans.png",
     "price": 39.99,
     "description": "Slim-fit blue denim jeans with a modern cut. Durable and stylish for everyday wear."
   },
   {
     "id": "3",
-    "name": "Red Hoodie",
-    "slug": "red-hoodie",
-    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+    "name": "Checkered shirt",
+    "slug": "checkered-shirt",
+    "image": "/images/checkered-shirt.png",
     "price": 29.99,
-    "description": "Cozy red hoodie with a front pocket and adjustable drawstrings. Perfect for chilly days."
+    "description": "Cozy checkered shirt with a front pocket and adjustable drawstrings. Perfect for chilly days."
   },
   {
     "id": "4",
-    "name": "Black Leather Jacket",
-    "slug": "black-leather-jacket",
-    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80",
+    "name": "Striped shirt",
+    "slug": "striped-shirt",
+    "image": "/images/striped_shirt.png",
     "price": 89.99,
-    "description": "Classic black leather jacket with zip closure. Adds edge to any outfit."
+    "description": "Classic striped shirt with zip closure. Adds edge to any outfit."
   },
   {
     "id": "5",
     "name": "Floral Summer Dress",
     "slug": "floral-summer-dress",
-    "image": "/images/floral-summer-dress.jpg",
+    "image": "/images/striped_shirt.png",
     "price": 34.99,
     "description": "Lightweight floral dress with a flattering fit. Ideal for warm weather."
   },
@@ -43,39 +43,39 @@
     "id": "6",
     "name": "Grey Sweatpants",
     "slug": "grey-sweatpants",
-    "image": "/images/grey-sweatpants.jpg",
+    "image": "/images/short.png",
     "price": 22.99,
     "description": "Soft grey sweatpants with elastic waistband. Great for lounging or workouts."
   },
   {
     "id": "7",
-    "name": "Striped Polo Shirt",
-    "slug": "striped-polo-shirt",
-    "image": "/images/striped-polo-shirt.jpg",
+    "name": "Polo Shirt",
+    "slug": "polo-shirt",
+    "image": "/images/polo.png",
     "price": 19.99,
-    "description": "Casual striped polo shirt with a classic collar. Breathable and stylish."
+    "description": "Casual polo shirt with a classic collar. Breathable and stylish."
   },
   {
     "id": "8",
     "name": "Navy Blue Blazer",
     "slug": "navy-blue-blazer",
-    "image": "/images/navy-blue-blazer.jpg",
+    "image": "/images/striped_shirt.png",
     "price": 59.99,
     "description": "Tailored navy blue blazer for formal or smart-casual occasions."
   },
   {
     "id": "9",
-    "name": "Green Cargo Shorts",
-    "slug": "green-cargo-shorts",
-    "image": "/images/green-cargo-shorts.jpg",
+    "name": "Jean Shorts",
+    "slug": "jean-shorts",
+    "image": "/images/short.png",
     "price": 24.99,
-    "description": "Comfortable green cargo shorts with multiple pockets. Perfect for summer adventures."
+    "description": "Comfortable jean shorts with multiple pockets. Perfect for summer adventures."
   },
   {
     "id": "10",
     "name": "Yellow Raincoat",
     "slug": "yellow-raincoat",
-    "image": "/images/yellow-raincoat.jpg",
+    "image": "/images/short.png",
     "price": 44.99,
     "description": "Bright yellow raincoat with hood and waterproof material. Stay dry in style."
   }

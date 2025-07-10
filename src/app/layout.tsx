@@ -11,13 +11,13 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body className="bg-white min-h-screen flex flex-col">
         <Providers>
           <Header />
-          
-              {children}
-            
+          <main className="flex-1">
+            {children}
+          </main>
           <Footer />
         </Providers>
       </body>

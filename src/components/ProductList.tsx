@@ -9,7 +9,7 @@ export default function ProductList() {
   if (error) return <div>Failed to load products.</div>;
 
   return (
-   <div>
+   <section className=" mb-3 mx-10 px-0 pt-0">
     <h2 className="text-2xl md:text-3xl font-extrabold mb-6">Our Products</h2>
     <p className="text-gray-600 mb-8">
       Explore our curated collection of fashion essentials. From classic tees to trendy jackets, we have something for everyone.
@@ -19,6 +19,6 @@ export default function ProductList() {
         <ProductCard key={product.id} product={product} />
       ))}
     </div>
- </div>
+ </section>
   );
 }

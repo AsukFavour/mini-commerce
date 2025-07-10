@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Jumbotron() {
   return (
     
-    <section className="relative bg-[#f7f6f7] min-h-[400px] md:min-h-[600px] flex items-center overflow-hidden rounded-b-3xl mb-10 px-0 pt-0">
+    <section className="relative bg-[#f7f6f7] min-h-[400px] md:min-h-[600px] flex items-center overflow-hidden rounded-b-3xl mb-10 mx-3 px-0 pt-0">
       {/* Banner Text */}
       <div className="absolute left-0 top-0 w-full h-full flex flex-col justify-center pl-6 md:pl-20 z-10">
         <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 max-w-xl mb-4">

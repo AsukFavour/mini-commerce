@@ -13,9 +13,9 @@ export default function CartItem({ item }: CartItemProps) {
   const updateQuantity = useCart((state) => state.updateQuantity);
 
   return (
-    <div className="flex items-center gap-6 py-4 border-b last:border-b-0">
+    <div className="flex flex-col md:flex-row items-center gap-6 py-4 border-b last:border-b-0">
       {/* Product Image */}
-      <div className="w-28 h-28 flex-shrink-0 rounded-xl bg-gray-50 flex items-center justify-center">
+      <div className="w-full md:w-28 h-28 flex-shrink-0 rounded-xl bg-gray-50 flex items-center justify-center">
         <Image
           src={item.image}
           alt={item.name}
@@ -25,7 +25,7 @@ export default function CartItem({ item }: CartItemProps) {
         />
       </div>
       {/* Product Info */}
-      <div className="flex-1 flex flex-col gap-2">
+      <div className="flex-1 flex flex-col gap-2 text-center md:text-left">
         <div className="font-semibold text-lg text-gray-900">{item.name}</div>
         <div className="text-gray-500 text-sm">${item.price} each</div>
       </div>
@@ -55,6 +55,6 @@ export default function CartItem({ item }: CartItemProps) {
           +
         </button>
       </div>
-      </div>
+    </div>
   );
 }
